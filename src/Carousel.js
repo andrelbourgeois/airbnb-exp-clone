@@ -12,7 +12,16 @@ function Carousel() {
                 home!
             </p>
             <div className="carousel">
-                <Card />
+                {/* call card function */}
+                <Card
+                //props below
+                img=""
+                avail=""
+                rating=""
+                count=""
+                title=""
+                price=""
+                />
             </div>
         </div>
     );
