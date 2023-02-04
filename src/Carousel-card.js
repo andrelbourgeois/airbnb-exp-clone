@@ -12,7 +12,7 @@ function Card(props) {
             <div className="card-availability">
                 {props.avail}
             </div>
-            <div className="card-reviews">
+            <div className="card-stats">
                 <img src={require("./star.png")} className="card-star" />
                 <div className="rating">{props.rating}</div>
                 <div className="rating-count">{props.count}</div>
