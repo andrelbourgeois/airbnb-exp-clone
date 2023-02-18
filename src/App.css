@@ -59,25 +59,28 @@ body {
 }
 
 .carousel-section {
-  padding: 0px 36px 36px 36px;
+  padding: 0px 36px 36px 16px;
   text-align: left;
 }
 
 .carousel-section h1 {
   font-size: 40px;
+  padding: 0px 0px 0px 20px;
 }
 
 .carousel-section p {
   font-size: 24px;
+  padding: 0px 0px 0px 20px;
 }
 
 .carousel {
   display: flex;
+  overflow-x: auto;
 }
 
 .card {
-  width: 300px;
-  padding: 20px
+  min-width: 250px;
+  padding: 20px;
 }
 
 .card-img {
@@ -93,7 +96,7 @@ body {
 }
 
 .card-star {
-  height: 14px;
+  height: 16px;
 }
 
 .card-title {
@@ -103,7 +106,6 @@ body {
 .card-price {
   padding: 2px 0px 2px 5px;
 }
-
 
 .App-footer {
   background-color: #FFFFFF;

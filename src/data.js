@@ -6,7 +6,7 @@ export default [
         price: 136,
         coverImg: "./katie-zaferes.png",
         stats: {
-            rating: 5.0,
+            rating: 4.9,
             reviewCount: 6
         },
         location: "Online",
@@ -19,7 +19,7 @@ export default [
         price: 125,
         coverImg: "wedding-photography.png",
         stats: {
-            rating: 5.0,
+            rating: 4.6,
             reviewCount: 30
         },
         location: "Online",
@@ -36,6 +36,19 @@ export default [
             reviewCount: 2
         },
         location: "Norway",
+        openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Scuba Diving",
+        description: "Explore the beautiful world just beneath the waves. Join our talented instructors as guide you through the incredible sights that our ocean has to offer!",
+        price: 100,
+        coverImg: "scuba-diving.png",
+        stats: {
+            rating: 4.3,
+            reviewCount: 8
+        },
+        location: "Cuba",
         openSpots: 3,
     }
 ]
