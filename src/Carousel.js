@@ -1,6 +1,20 @@
-import Card from "./Carousel-card"
+import Card from "./Card"
+import data from "./data"
 
 function Carousel() {
+    const cards = data.map(item => {
+        return (
+            <Card
+                //props below
+                img={item.coverImg}
+                rating={item.stats.rating}
+                count={item.stats.reviewCount}
+                location={item.location}
+                title={item.title}
+                price={item.price}
+            />
+        )
+    })
     return (
         <div className="carousel-section">
             <h1>
@@ -12,16 +26,7 @@ function Carousel() {
                 home!
             </p>
             <div className="carousel">
-                {/* call card function */}
-                <Card
-                //props below
-                img=""
-                avail=""
-                rating=""
-                count=""
-                title=""
-                price=""
-                />
+                {cards}
             </div>
         </div>
     );

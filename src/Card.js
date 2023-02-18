@@ -5,10 +5,10 @@
 
 function Card(props) {
     return (
-        <div className="Carousel-card">
-            <div className="card-img">
-                {props.img}
-            </div>
+        <div className="card">
+            <img className="card-img"
+                src={`../images/${props.img}`}
+            />
             <div className="card-availability">
                 {props.avail}
             </div>
@@ -16,6 +16,9 @@ function Card(props) {
                 <img src={require("./star.png")} className="card-star" />
                 <div className="rating">{props.rating}</div>
                 <div className="rating-count">{props.count}</div>
+            </div>
+            <div className="card-location">
+                {props.location}
             </div>
             <div className="card-title">
                 {props.title}
