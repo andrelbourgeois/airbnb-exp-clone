@@ -13,9 +13,9 @@ function Card(props) {
                 {props.avail}
             </div>
             <div className="card-stats">
-            <img src={require("./star.png")} className="card-star" />
-                <div className="rating">{props.rating}</div>
-                <div className="rating-count">{props.count}</div>
+                <img src={require("./star.png")} className="card-star" />
+                <div className="rating">&nbsp;{props.rating}&nbsp;&nbsp;•&nbsp;&nbsp;</div>
+                <div className="rating-count">({props.count})</div>
             </div>
             <div className="card-location">
                 {props.location}
