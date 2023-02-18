@@ -14,17 +14,15 @@ function Card(props) {
             </div>
             <div className="card-stats">
                 <img src={require("./star.png")} className="card-star" />
-                <div className="rating">&nbsp;{props.rating}&nbsp;&nbsp;•&nbsp;&nbsp;</div>
-                <div className="rating-count">({props.count})</div>
-            </div>
-            <div className="card-location">
-                {props.location}
+                <div className="rating">&nbsp;{props.rating}</div>
+                <div className="rating-count">&nbsp;&nbsp;({props.count} Reviews)&nbsp;&nbsp;•</div>
+                <div className="card-location">&nbsp;&nbsp;{props.location}</div>
             </div>
             <div className="card-title">
                 {props.title}
             </div>
             <div className="card-price">
-                {props.price}
+                <strong>From ${props.price}</strong> / Person
             </div>
         </div>
     )

@@ -71,10 +71,13 @@ body {
   font-size: 24px;
 }
 
+.carousel {
+  display: flex;
+}
+
 .card {
   width: 300px;
-  
-  
+  padding: 20px
 }
 
 .card-img {
@@ -86,11 +89,21 @@ body {
 .card-stats {
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
 .card-star {
   height: 14px;
 }
+
+.card-title {
+  padding: 2px 0px 2px 5px;
+}
+
+.card-price {
+  padding: 2px 0px 2px 5px;
+}
+
 
 .App-footer {
   background-color: #FFFFFF;
