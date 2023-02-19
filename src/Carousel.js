@@ -6,12 +6,14 @@ function Carousel() {
         return (
             <Card
                 //props below
+                key={item.id}
                 img={item.coverImg}
                 rating={item.stats.rating}
                 count={item.stats.reviewCount}
                 location={item.location}
                 title={item.title}
                 price={item.price}
+                openSpots={item.openSpots}
             />
         )
     })

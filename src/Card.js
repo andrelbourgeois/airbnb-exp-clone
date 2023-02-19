@@ -4,8 +4,16 @@
 //props can be destructured into their separate elements
 
 function Card(props) {
+    let badgeText
+    if (props.openSpots === 0 ) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+    }
     return (
         <div className="card">
+            {/*conditional rendering - will only render if openSpots is equal to 0 or if experience is online*/}
+            {badgeText && <div className="card-badge">{badgeText}</div>}
             <img className="card-img"
                 src={`../images/${props.img}`}
             />

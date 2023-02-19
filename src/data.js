@@ -55,11 +55,11 @@ export default [
         id: 5,
         title: "Baking Classes",
         description: "Did you miss out on the sourdough fad during the pandemic? Are you still interested in learning? Join our talented instructors online and learn to bake from the comfort of your own kitchen!",
-        price: 30,
+        price: 35,
         coverImg: "baking-classes.png",
         stats: {
             rating: 4.4,
-            reviewCount: 25
+            reviewCount: 24
         },
         location: "Online",
         openSpots: 0,
