@@ -5,32 +5,34 @@
 
 function Card(props) {
     let badgeText
-    if (props.openSpots === 0 ) {
+    if (props.item.openSpots === 0 ) {
         badgeText = "SOLD OUT"
-    } else if (props.location === "Online") {
+    } else if (props.item.location === "Online") {
         badgeText = "ONLINE"
     }
     return (
         <div className="card">
-            {/*conditional rendering - will only render if openSpots is equal to 0 or if experience is online*/}
+            {/*conditional rendering - will only render if openSpots is equal to 0 or if experience is*/}
             {badgeText && <div className="card-badge">{badgeText}</div>}
             <img className="card-img"
-                src={`../images/${props.img}`}
+            //if elements brought in as whole object, use props.item.elemement - if individual use props.element
+            //if elements "spread" across components, use props.element
+                src={`../images/${props.item.coverImg}`}
             />
             <div className="card-availability">
-                {props.avail}
+                {props.item.avail}
             </div>
             <div className="card-stats">
                 <img src={require("./star.png")} className="card-star" />
-                <div className="rating">&nbsp;{props.rating}</div>
-                <div className="rating-count">&nbsp;&nbsp;({props.count} Reviews)&nbsp;&nbsp;•</div>
-                <div className="card-location">&nbsp;&nbsp;{props.location}</div>
+                <div className="rating">&nbsp;{props.item.stats.rating}</div>
+                <div className="rating-count">&nbsp;&nbsp;({props.item.stats.reviewCount} Reviews)&nbsp;&nbsp;•</div>
+                <div className="card-location">&nbsp;&nbsp;{props.item.location}</div>
             </div>
             <div className="card-title">
-                {props.title}
+                {props.item.title}
             </div>
             <div className="card-price">
-                <strong>From ${props.price}</strong> / Person
+                <strong>From ${props.item.price}</strong> / Person
             </div>
         </div>
     )
