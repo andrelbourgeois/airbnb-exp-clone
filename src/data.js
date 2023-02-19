@@ -41,7 +41,7 @@ export default [
     {
         id: 4,
         title: "Scuba Diving",
-        description: "Explore the beautiful world just beneath the waves. Join our talented instructors as guide you through the incredible sights that our ocean has to offer!",
+        description: "Explore the beautiful world just beneath the waves as our passionate instructors guide you through the incredible sights that our ocean has to offer!",
         price: 100,
         coverImg: "scuba-diving.png",
         stats: {
@@ -49,6 +49,19 @@ export default [
             reviewCount: 8
         },
         location: "Cuba",
-        openSpots: 3,
+        openSpots: 6,
+    },
+    {
+        id: 5,
+        title: "Baking Classes",
+        description: "Did you miss out on the sourdough fad during the pandemic? Are you still interested in learning? Join our talented instructors online and learn to bake from the comfort of your own kitchen!",
+        price: 30,
+        coverImg: "baking-classes.png",
+        stats: {
+            rating: 4.4,
+            reviewCount: 25
+        },
+        location: "Online",
+        openSpots: 0,
     }
 ]
