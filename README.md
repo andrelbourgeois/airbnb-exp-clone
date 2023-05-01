@@ -1,22 +1,23 @@
-AIRBNB-EXPERIENCE-CLONE
+# AIRBNB-EXPERIENCE-CLONE
 License: MIT
 
-Description
+## Description
 This is a web application designed as a clone of the experience section of the airbnb website
 
-Tech Stack
+## Tech Stack
 - Javascript
 - HTML5
 - CSS3
 - React.js
 
-Table of Contents
+## Table of Contents
 Installation
 Usage
 Contributing
 License
 Contact
-Installation
+
+## Installation
 Step-by-step instructions on how to install and run the project.
 
 bash
@@ -28,15 +29,15 @@ $ npm start
 Usage
 A guide on how to use the project, including examples and screenshots.
 
-License
+## License
 Information about the project's license, including any restrictions or requirements.
 
-Contact
+## Contact
 Contact information for the project maintainer(s), including email address or social media handles.
 
 Feel free to use this template as a starting point for your own GitHub README file, and customize it to fit the needs of your project. Remember that your README file is an essential component of your project and should provide a clear and concise overview of what your project does and how it works.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
