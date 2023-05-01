@@ -2,20 +2,34 @@
 
 This is a web application designed as a clone of the experience section of the airbnb website.
 
-## Tech Stack
+## Project Directory
+- [Features](#features)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [License](#license)
+- [Contact](#contact)
+- [FAQ](#faq)
+- links to files with data or other resources
+
+## Features
+- Features of the project
+
+## Built With
+This project was built with the following technologies, in your preferred development environment, following this [tutorial](https://www.freecodecamp.org/news/free-react-course-2022/) on freeCodeCamp.
 - Javascript
 - HTML5
 - CSS3
-- React.js
+- ReactJS
+
+## Getting Started
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## License
-This project is licensed under the MIT License.
+License info (probably: "This project is licensed under the MIT License.")
 
 <!--
 
 ## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
