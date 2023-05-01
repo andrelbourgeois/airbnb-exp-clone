@@ -1,8 +1,6 @@
 # AIRBNB-EXPERIENCE-CLONE
-License: MIT
 
-## Description
-This is a web application designed as a clone of the experience section of the airbnb website
+This is a web application designed as a clone of the experience section of the airbnb website.
 
 ## Tech Stack
 - Javascript
@@ -17,25 +15,10 @@ Contributing
 License
 Contact
 
-## Installation
-Step-by-step instructions on how to install and run the project.
-
-bash
-Copy code
-$ git clone https://github.com/your_username/your_project.git
-$ cd your_project
-$ npm install
-$ npm start
-Usage
-A guide on how to use the project, including examples and screenshots.
-
 ## License
-Information about the project's license, including any restrictions or requirements.
+This project is licensed under the MIT License.
 
-## Contact
-Contact information for the project maintainer(s), including email address or social media handles.
-
-Feel free to use this template as a starting point for your own GitHub README file, and customize it to fit the needs of your project. Remember that your README file is an essential component of your project and should provide a clear and concise overview of what your project does and how it works.
+<!--
 
 ## Getting Started with Create React App
 
@@ -107,3 +90,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-->
