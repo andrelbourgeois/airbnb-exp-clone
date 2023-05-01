@@ -8,13 +8,6 @@ This is a web application designed as a clone of the experience section of the a
 - CSS3
 - React.js
 
-## Table of Contents
-Installation
-Usage
-Contributing
-License
-Contact
-
 ## License
 This project is licensed under the MIT License.
 
