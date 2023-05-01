@@ -1,6 +1,6 @@
 # AIRBNB-EXPERIENCE-CLONE
 
-This is a web application designed as a clone of the experience section of the airbnb website.
+This is a web application designed as a clone of the experience section of the airbnb website. This project was built as part of this free [React Course](https://www.freecodecamp.org/news/free-react-course-2022/) from freeCodeCamp.
 
 ## Project Directory
 - [Built With](#built-with)
@@ -8,7 +8,7 @@ This is a web application designed as a clone of the experience section of the a
 - [License](#license)
 
 ## Built With
-This project was built with the following technologies, in your preferred development environment, following this [tutorial](https://www.freecodecamp.org/news/free-react-course-2022/) on freeCodeCamp.
+This project was built with the following technologies, in your preferred development environment.
 - Javascript
 - HTML5
 - CSS3
